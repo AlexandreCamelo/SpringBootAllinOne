@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+
+	<meta name="viewport" content="width=device-width" />
+	<title>JSF page</title>
+
+	<h:outputStylesheet name="primeicons/primeicons.css"
+		library="primefaces" />
+
+	<link rel="icon" href="imagens/favicon64.png" />
+	<f:event listener="#{temasBean.mudaTema('sunny')}" type="preRenderView"></f:event>
+
+</h:head>
+
+
+<h:body>
+
+
+	<p:panel style="text-align: center !important;">
+		<p:outputLabel value="This is a JSF page"></p:outputLabel>
+	</p:panel>
+
+	<h:form id="form">
+
+		<p:panel style="text-align: center !important;">
+			<p:graphicImage url="/imagens/primefaces.png"
+				style="margin: 0px 0px 0px 1px !important; height: 80px !important; width: auto !important;" />
+		</p:panel>
+
+
+		<div class="menu-principal">
+			<p:link href="/thymeleaf" title="Go to Thymeleaf page">
+				<p:graphicImage url="/imagens/thymeleaf.png"
+					style="margin: 0px 0px 0px 1px !important; height: 30px !important; width: auto !important;" />
+			</p:link>
+		</div>
+		<div class="menu-principal">
+			<p:link href="/jsp" title="Go to JSP page">
+				<p:graphicImage url="/imagens/jsp.png"
+					style="margin: 0px 0px 0px 1px !important; height: 50px !important; width: auto !important;" />
+			</p:link>
+		</div>
+	</h:form>
+</h:body>
+
+</html>
