@@ -24,11 +24,11 @@ The third secret lies in the arrangement of the folders, where the pages are. In
 <br/><br/>
 2) The addresses for each of the pages are:
   <br/>
-  &jbsp;&jbsp;a) localhost:8080/jsf.xhtml
+  a) localhost:8080/jsf.xhtml
   <br/>
-  &jbsp;&jbsp;b) localhost:8080/th_thymeleaf
+  b) localhost:8080/th_thymeleaf
   <br/>
-  &jbsp;&jbsp;c) localhost:8080/jsp
+  c) localhost:8080/jsp
 <br/><br/>
 3) After opening any of them, you can navigate between the pages by clicking on the corresponding links;
 <br/><br/>
