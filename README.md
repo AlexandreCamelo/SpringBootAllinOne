@@ -21,9 +21,12 @@ The third secret lies in the arrangement of the folders, where the pages are. In
 
 <h3>a few instructions</h3>
 1) Start the project (it will start on port 8080);
+<br/>
 2) The addresses for each of the pages are:
-The. localhost:8080/jsf.xhtml
+A. localhost:8080/jsf.xhtml
 B. localhost:8080/th_thymeleaf
-ç. localhost:8080/jsp
+C. localhost:8080/jsp
+<br/>
 3) After opening any of them, you can navigate between the pages by clicking on the corresponding links;
+<br/>
 4) <b>IMPORTANT:</b> To differentiate JSP pages from Thymeleaf pages, Thymeleaf pages must have the prefix th_. Example: th_names.html. If you don't name the pages like that, spring won't find the thymeleaf pages.
