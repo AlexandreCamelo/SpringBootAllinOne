@@ -1,7 +1,5 @@
 # SpringBootAllinOne
 
-Spring Boot project where you can use Thymeleaf, JSF and JSP at the same time.
-
 Project built in Spring Boot, in which I demonstrate the use, WITHIN THE SAME PROJECT, the use of Thymeleaf, JSF/Primefaces and the old JSP, at the same time.
 
 Although Spring recommends the use of Thymeleaf, due to its perfect integration with the framework, I prefer to work with JSF, using Primefaces, due to the productivity that these technologies provide.
