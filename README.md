@@ -23,9 +23,12 @@ The third secret lies in the arrangement of the folders, where the pages are. In
 1) Start the project (it will start on port 8080);
 <br/>
 2) The addresses for each of the pages are:
-A. localhost:8080/jsf.xhtml
-B. localhost:8080/th_thymeleaf
-C. localhost:8080/jsp
+  <br/>
+  a) localhost:8080/jsf.xhtml
+  <br/>
+  b) localhost:8080/th_thymeleaf
+  <br/>
+  c) localhost:8080/jsp
 <br/>
 3) After opening any of them, you can navigate between the pages by clicking on the corresponding links;
 <br/>
